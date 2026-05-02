@@ -1,0 +1,63 @@
+Test Plan: Solar System Program
+
+Test 1
+Purpose: Display all information about a valid planet.
+Input:
+1
+Saturn
+Expected result:
+Saturn's name, mass, distance from the Sun, type, and moons are displayed.
+
+Test 2
+Purpose: Display mass of a valid planet.
+Input:
+2
+Neptune
+Expected result:
+The program displays Neptune's mass.
+
+Test 3
+Purpose: Check if a valid planet exists.
+Input:
+3
+Earth
+Expected result:
+The program confirms Earth is in the list of planets.
+
+Test 4
+Purpose: Check if Pluto is in the list.
+Input:
+3
+Pluto
+Expected result:
+The program says Pluto is not in the list of planets.
+
+Test 5
+Purpose: Count Earth's moons.
+Input:
+4
+Earth
+Expected result:
+The program says Earth has 1 moon listed.
+
+Test 6
+Purpose: Validate empty planet name.
+Input:
+1
+
+Expected result:
+The program displays "Planet name cannot be empty."
+
+Test 7
+Purpose: Validate invalid menu option.
+Input:
+9
+Expected result:
+The program displays "Invalid option. Please enter a number from 1 to 5."
+
+Test 8
+Purpose: Exit the program.
+Input:
+5
+Expected result:
+The program displays "Goodbye." and ends.
